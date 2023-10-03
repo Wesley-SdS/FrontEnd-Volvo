@@ -1,10 +1,8 @@
 # Volvo Cars (Global Online Digital)
 
-## Front-end coding test (React)
+## Codificação Front-end (React)
 
-Our team's designer has come up with a new design to show our latest and greatest recharge cars on the website.
-
-Here is how the design look like for desktop and mobile (files are stored under `docs` folder)
+codificação front-end para a Volvo Cars (Global Online Digital). Abaixo está uma descrição do que foi realizado neste projeto:
 
 ### Desktop
 
@@ -14,7 +12,7 @@ Here is how the design look like for desktop and mobile (files are stored under 
 
 ![ProductListDesktop](./docs/ProductList-Mobile.png)
 
-The data required to render the design is under `public/api/cars.json` folder. You need to fetch the data and render it in the browser. The data looks like this:
+Busca dos dados necessários para renderizar o design a partir do arquivo public/api/cars.json. Os dados têm a seguinte estrutura:
 
 ```json
 [
@@ -27,25 +25,22 @@ The data required to render the design is under `public/api/cars.json` folder. Y
   }
 ]
 ```
+Geração de links para as páginas de aprendizado e compra de cada carro, concatenando o id do carro às URLs de aprendizado (`/learn/`) e compra (`/shop/`).
 
-The product owner is telling you that you can generate the links to the learn and shop pages of each car by concatating the `id` of the car to the learn (`/learn/`) and shop (`/shop/`) urls.
+Adição de dois ícones SVG fornecidos pelo designer, armazenados na pasta docs.
 
-Two extra SVG icons are also provided by our designer which are stored under `docs` folder.
+Utilização do framework Next.js para a inicialização do projeto.
 
-## Requirements
+Garantia de suporte a navegadores modernos e sempre atualizados.
 
-- The project is bootstraped using [Next.js](https://nextjs.org/).
-- Browser support is modern ever-green browsers.
-- Implement this design using React and Typescript.
-- Accessibility is important.
-- Code Structure and reusablity is important.
+Implementação do design utilizando React e TypeScript para garantir a tipagem segura.
 
-## Bonus Points:
+Foco na acessibilidade para melhorar a experiência do usuário.
 
-- If you use our design system component library, [VCC-UI](https://vcc-ui.vercel.app/)
-- If you add a filter bar on the top to filter cars by `bodyType`
 
-## Submission
+Utilização da biblioteca de componentes do sistema de design VCC-UI `docs`,  quando aplicável.
+Adição de uma barra de filtro na parte superior para filtrar carros por `bodyType`
 
-Clone this repository to get started. Due to a number of reasons, not least privacy, you will be asked to zip your solution and mail it in, instead of submitting a pull-request. In order to maintain an unbiased reviewing process, please ensure to keep your name or other Personal Identifiable Information (PII) from the code.
+
+
 
